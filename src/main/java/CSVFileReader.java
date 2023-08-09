@@ -13,7 +13,7 @@ class CSVFileReader implements Reader {
     public List<String[]> reader(String fileName, Connection con) {
         Logger logger = Logger.getLogger(interfaceread.class.getName());
         // use java.io.BufferedReader to read csv file
-        String csvFile = fileName+".csv";
+        String csvFile = "src\\main\\resources\\"+fileName+".csv";
         List<String[]> data = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new java.io.FileReader(csvFile))) {

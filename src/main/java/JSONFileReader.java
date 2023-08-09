@@ -19,7 +19,7 @@ class JSONFileReader implements Reader {
         Logger logger = Logger.getLogger(interfaceread.class.getName());
         // use java.io.InputStreamReader to read json file
         System.out.println("JSON");
-        String jsonFile = fileName + ".json";
+        String jsonFile = "src\\main\\resources\\"+fileName+".json";
         System.out.println(jsonFile);
 
         List<String[]> data = new ArrayList<>();
