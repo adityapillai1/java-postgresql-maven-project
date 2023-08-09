@@ -1,5 +1,4 @@
 connection.class
-Main.class
 JSONFileReader.class
 CSVFileReader.class
 SwitchClass.class

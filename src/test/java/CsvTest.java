@@ -47,6 +47,6 @@ public class CsvTest {
             for (int i = 0; i < expectedData.size(); i++) {
             assertArrayEquals(expectedData.get(i), res.get(i));
             }
-            }
+        }
 
-            }
+    }
